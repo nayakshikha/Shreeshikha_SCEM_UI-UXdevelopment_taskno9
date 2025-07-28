@@ -52,7 +52,7 @@ POST	/api/users/login	User login
 GET	/api/backup	Download DB backup
 POST	/api/restore	Restore DB from backup
 
-💾 Backup & Restore
+Backup & Restore
 To backup:
 node utils/backup.js
 To restore:
@@ -67,34 +67,34 @@ http://localhost:5000
 
 # 📚 Book Management Frontend
 
-This is the **frontend** part of the Book Management App built with **React.js**. It allows users to view, add, and delete books, and includes pages like Home, Login, About Us, Contact, and more — all with smooth transitions and a clean UI.
+This is the frontend part of the Book Management App built with React.js. It allows users to view, add, and delete books, and includes pages like Home, Login, About Us, Contact, and more — all with smooth transitions and a clean UI.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🌟 Welcome page with tagline and glowing text
-- 🧭 Navigation bar with:
+-  Welcome page with tagline and glowing text
+-  Navigation bar with:
   - Home
   - Add Book
   - Login
   - About Us
   - Contact
-- 📖 Book list with details:
+-  Book list with details:
   - Title
   - Author
   - date
   - Genre
   - Published Date
-- ➕ Add Book form
-- ❌ Delete Book functionality
-- ⚙️ Axios integration with backend API
-- 💅 Stylish UI with gradients, transitions, and animations
+ - Add Book form
+ -  Delete Book functionality
+ - Axios integration with backend API
+ - Stylish UI with gradients, transitions, and animations
 
 
 
 
-🔧 Installation & Setup
+ Installation & Setup
 Clone the repository:
 git clone <your-repo-url>
 cd book-management-frontend
@@ -107,18 +107,18 @@ http://localhost:3000
 🔗 Backend API Connection
 Make sure the backend server is running on http://localhost:5000 (or update the Axios base URL accordingly).
 
-📦 Build for Production
+ Build for Production
 npm run build
-🧪 Testing
+ Testing
 npm test
-📚 Learn More
+ Learn More
 This project was bootstrapped with Create React App.
 
-🛠 Troubleshooting
+ Troubleshooting
 If npm run build fails to minify, refer to this:
 CRA Troubleshooting Docs
 
-📞 Contact
+Contact
 For questions, reach out via the Contact Us section on the app or email the developer.
 
 
