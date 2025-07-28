@@ -3,32 +3,20 @@
 This is the backend server for the **Book Management App**, built using **Node.js**, **Express.js**, and **MongoDB**. 
 It handles CRUD operations for books, user registration, login, and optional backup/restore functionality.
 
----
-
-## 📁 Project Structure
-book-management-backend/
-├── models/ # Mongoose schemas for books and users
-├── routes/ # Express route handlers
-├── uploads/ # File storage (if any)
-├── utils/ # Backup & restore scripts
-├── index.js # Server entry point
-├── .env # Environment config
-├── package.json # Dependencies and scripts
-├── README.md # This file
 
 ---
 
-## ✨ Features
+## Features
 
-- 📚 Add, view, and delete books
-- 🔐 User registration and login with JWT
-- 🔄 Backup and restore MongoDB data
-- ⚙️ RESTful APIs with Express.js
-- 🌍 CORS and body-parser enabled
+-  Add, view, and delete books
+-  User registration and login with JWT
+-  Backup and restore MongoDB data
+-  RESTful APIs with Express.js
+-  CORS and body-parser enabled
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Node.js**
 - **Express.js**
@@ -39,9 +27,9 @@ book-management-backend/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 1. Clone the Repository
+1. Clone the Repository
 
 ```bash
 2.git clone link
@@ -103,24 +91,8 @@ This is the **frontend** part of the Book Management App built with **React.js**
 - ⚙️ Axios integration with backend API
 - 💅 Stylish UI with gradients, transitions, and animations
 
----
 
-## 📁 Project Structure
 
-```bash
-book-management-frontend/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   └── ...
-├── package.json
-└── README.md
 
 🔧 Installation & Setup
 Clone the repository:
