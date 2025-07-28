@@ -34,12 +34,17 @@ It handles CRUD operations for books, user registration, login, and optional bac
 
    git clone link
    cd book-management-backend
+
+
 2. Install Dependencies
   npm install
 
-3.Create a .env file in the root directory and add:
+3.Create Environment File
+Create a .env file in the root directory and add:
 MONGO_URI=mongodb://localhost:27017/bookapp
 PORT=5000
+
+
 4.Start the Server
 npm start
 Book Management API is running on port 5000
