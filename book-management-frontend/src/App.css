@@ -1,0 +1,181 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d1117;
+  color: #ffffff;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #161b22;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #c9d1d9;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #00f7ff;
+  text-shadow: 0 0 10px #00f7ff;
+}
+
+/* Welcome Section */
+.welcome-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #0d1117, #1c1f27);
+}
+
+.welcome-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #00f7ff, #a3ff8f, #ffd966);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glowingText 3s ease-in-out infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes glowingText {
+  0%, 100% {
+    text-shadow: 0 0 10px rgba(191, 0, 255, 0.6), 0 0 20px rgba(163, 255, 143, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(138, 102, 255, 0.9), 0 0 25px rgba(0, 255, 255, 0.6);
+  }
+}
+
+.welcome-section p {
+  font-size: 1.2rem;
+  color: #c9d1d9;
+}
+
+/* Book Form */
+.add-book-section {
+  padding: 2rem;
+  background-color: #161b22;
+  border-top: 1px solid #30363d;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.form input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 180px;
+}
+
+.form button {
+  padding: 0.5rem 1rem;
+  background-color: #00f7ff;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Book List */
+.book-list-section {
+  padding: 2rem;
+}
+
+.book-list-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.book-list-section li {
+  background-color: #21262d;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 2rem;
+  background-color: #0d1117;
+  border-top: 1px solid #30363d;
+}
+
+.contact-section p {
+  max-width: 800px;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  color: #c9d1d9;
+}
+
+/* About Us Section */
+.about-us {
+  padding: 2rem;
+  background-color: #161b22;
+  border-top: 1px solid #30363d;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-content p {
+  flex: 1;
+  font-size: 1.1rem;
+  color: #c9d1d9;
+}
+
+.about-img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 12px;
+}
+/* Glowing input fields */
+.glow-input {
+  border: 2px solid #ffffff66;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin: 10px;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.glow-input::placeholder {
+  color: #cccccc;
+}
+
+.glow-input:focus {
+  border-color: #00ffff;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}

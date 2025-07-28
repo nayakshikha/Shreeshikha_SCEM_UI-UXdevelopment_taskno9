@@ -1,0 +1,57 @@
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101026;
+  padding: 6px 12px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-logo {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #00e5ff;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: #ffffff;
+  padding: 4px 8px;
+  background-color: #282844;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.navbar-links a:hover {
+  background-color: #3b3b60;
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    margin-top: 5px;
+  }
+
+  .navbar-links a {
+    width: 100%;
+  }
+}
